@@ -158,8 +158,7 @@ function getRegistrationResponse(data, socket) {
       getNewMessage(messageData);
       console.log('--e--');
     });
-    
-    messageListDiv.scrollTo(0, messageListDiv.scrollHeight);
+    window.scrollTo(0, messageListDiv.scrollHeight);
   }
 }
 
