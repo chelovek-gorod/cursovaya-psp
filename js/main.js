@@ -2,7 +2,7 @@
 
 // CONNECTION
 
-const socketURL = 'wss://cursovaya-psp-server.onrender.com:10000'; // 'wss://cursovaya-psp.herokuapp.com' // 'ws://localhost:9000' 
+const socketURL = 'wss://cursovaya-psp-server.onrender.com'; // 'wss://cursovaya-psp.herokuapp.com' // 'ws://localhost:9000' 
 const connectionTimeout = 6000;
 
 let connectionIs = false;
