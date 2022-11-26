@@ -45,5 +45,12 @@
 
         <script src="./js/main.js"></script>
 
+        <script>
+            //if browser support service worker
+            if('serviceWorker' in navigator) {
+              navigator.serviceWorker.register('./js/sw.js');
+            };
+        </script>
+
     </body>
 </html>
